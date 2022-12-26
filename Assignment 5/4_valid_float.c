@@ -39,31 +39,23 @@ void isValid(char str[])
                 fend++;
     }
     if(fend == 1 && str[len - 2] != 'f')
-    {
         flag = 0;
-    }
+    
     else if (fend > 1)
-    {
         flag = 0;
-    }
+
     if(p > 1 || e > 1 || pm > 1)
         flag = 0;
 
     if (flag == 0)
-    {
         printf("invalid\n");
-    }
     else
-    {
         printf("valid\n");
-    }
 }
 
 int main()
 {
     char str[100];
-
     fgets(str, 100, stdin);
-
     isValid(str);
 }
