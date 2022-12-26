@@ -51,15 +51,12 @@ int shuffleString(char st1[], char st2[] ,char str[])
         str[rIndex] = temp;
     }
 
-
 }
-
 
 int main()
 {
     char str1[100] = "ABCDEFG";
     char str2[100] = "HIJKLMNOP";
-
     char con[200];
    shuffleString(str1, str2, con);
     printf("%s", con);
