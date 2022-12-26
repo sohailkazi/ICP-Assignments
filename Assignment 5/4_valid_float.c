@@ -44,7 +44,7 @@ void isValid(char str[])
     else if (fend > 1)
         flag = 0;
 
-    if(p > 1 || e > 1 || pm > 1)
+    if(p > 1 || e > 1 || pm > 1 || len - 1 < 10)
         flag = 0;
 
     if (flag == 0)
