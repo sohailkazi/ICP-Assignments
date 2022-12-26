@@ -14,7 +14,7 @@ void decrypt(char string[])
 
 int main()
 {
-    char string[] = "Hello. Let's meet tonight.";
+    char string[] = "Hello. I Hate Cornflakes.";
     encrypt(string);
     printf("%s", string);
     printf("\n");
