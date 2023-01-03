@@ -37,5 +37,7 @@ int main()
         if (arr[i] > 0)
             printf("%d ", arr[i]);
     }
+
+    free(arr);
     return 0;
 }

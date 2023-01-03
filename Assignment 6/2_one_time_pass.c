@@ -50,5 +50,6 @@ int main()
     generateOTP(otp);
     
     printf("One Time Password: %s", otp);
+    free(otp);
     return 0;
 }
